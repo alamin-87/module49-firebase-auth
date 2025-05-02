@@ -7,6 +7,7 @@ import Root from "./Layouts/Root.jsx";
 import Home from "./Components/Home/Home.jsx";
 import Login from "./Components/Login/Login.jsx";
 import Mail from "./Components/mail.com/Mail.jsx";
+import SignIn from "./Components/SignIn/SignIn.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "emailLogin",
         Component: Mail,
+      },
+      {
+        path: "signin",
+        Component: SignIn,
       },
     ],
   },
